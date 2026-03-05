@@ -1,0 +1,43 @@
+/* background geral */
+.radix-themes {
+  background-color: #090F1C !important;
+}
+
+/* remove highlight azul */
+.rt-AccordionTrigger {
+  background: #090F1C !important;
+}
+
+.rt-AccordionTrigger:hover {
+  background: #090F1C !important;
+}
+
+.rt-AccordionTrigger:focus {
+  background: #090F1C !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.rt-AccordionTrigger:focus-visible {
+  background: #090F1C !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.rt-AccordionTrigger[data-state="open"] {
+  background: #090F1C !important;
+}
+
+/* remove highlight interno do radix */
+.rt-BaseButton {
+  background: #090F1C !important;
+}
+
+.rt-BaseButton:hover {
+  background: #090F1C !important;
+}
+
+/* fonte global */
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
