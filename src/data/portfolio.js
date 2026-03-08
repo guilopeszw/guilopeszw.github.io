@@ -1,7 +1,7 @@
 export const personal = {
   name: "guilherme lopes",
   title: "software engineer",
-  subtitle: "backend & data engineering",
+  subtitle: "backend development & data engineering",
   bio: "i build backend systems, data pipelines, and machine learning infrastructure. cs student at ufpb, currently doing research across ai labs and audio intelligence.",
   email: "guilhermeulopes.work@gmail.com",
   github: "https://github.com/guilopeszw",
