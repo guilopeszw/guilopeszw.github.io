@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+
+  .exp-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .stack-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .stack-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
