@@ -58,7 +58,7 @@ export const experience = [
     location: "joão pessoa, pb",
     type: "research",
     bullets: [
-      "architected a scalable data lake schema using sql, optimized for high-throughput financial transaction ingestion and analytical querying.",
+      "architected a scalable data lake schema using sql, optimized for high-throughput data ingestion and analytical querying.",
       "engineered a fastapi microservice for automated xml transaction processing with schema validation layers.",
       "designed end-to-end data pipelines that reduced data inconsistency errors in downstream analytics.",
     ],
