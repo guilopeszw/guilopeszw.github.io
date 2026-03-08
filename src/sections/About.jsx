@@ -22,9 +22,10 @@ export default function About() {
           <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
             {[
               `cs student at federal university of paraíba (ufpb) and member of tail — the technology and artificial intelligence league. that's where most of the interesting problems come from.`,
-              `at aria laboratory, i design data infrastructure for financial analytics — schemas, microservices, pipelines that need to be right the first time. at moises.ai, i built audio analysis apis for chord recognition at scale.`,
-              `i did ml research with the university of pennsylvania on medical imaging classification. through tail's music board, i'm also part of a joint project developing ai-driven haptic systems to make music accessible to hearing-impaired people.`,
-              `what interests me most is the boundary between backend engineering and machine learning — systems where the infrastructure has to be as precise as the model it serves.`,
+              `at aria laboratory, i design data and backend infrastructure — schemas, microservices, pipelines, api's - you get the idea. at moises.ai, i built an audio analysis api for chord notes recognition.`,
+              `i also did ml research with the university of pennsylvania, helping test and rate tissue separation with machine learning on medical imaging classification. `
+              `through tail's music board, i'm also part of a joint project developing ai-driven haptic systems to make music accessible to hearing-impaired people.`,
+              `i am very much obsessed with anything world-changing, especially if it envolves music, ai, data and, well, code.`,
             ].map((text, i) => (
               <p key={i} style={{ fontSize: "15px", lineHeight: "1.7", color: "var(--text-secondary)", fontWeight: 300 }}>
                 {text}
