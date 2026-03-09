@@ -71,7 +71,7 @@ export const experience = [
     location: "philadelphia, pa",
     type: "research",
     bullets: [
-      "volunteered on medical imaging research — trained and evaluated deep learning models for mammogram tissue classification on gpu-accelerated virtual machines.",
+      "volunteered on medical imaging research — evaluated deep learning models for mammogram tissue classification on gpu-accelerated virtual machines.",
       "benchmarked accuracy across multiple architectures to guide research decisions.",
     ],
   },
