@@ -21,6 +21,15 @@ export const projects = [
     year: "2026",
   },
   {
+    id: "auris",
+    title: "auris iii — haptic chair",
+    description:
+      "joint research project between tail's music board and lavid laboratory at ufpb. building an ai-driven multisensory system that translates musical audio into haptic stimuli — making music physically perceivable for hearing-impaired users. the work sits at the intersection of sensory substitution research, signal processing, and accessibility.",
+    tech: ["Python", "AI/ML", "DSP", "Haptics", "Sensory Substitution"],
+    status: "in progress",
+    year: "2026",
+  },
+  {
     id: "chordmax",
     title: "chordmax",
     description:
@@ -37,15 +46,6 @@ export const projects = [
     tech: ["Python", "PyTorch", "CRNN", "Next.js", "Mel-spectrograms"],
     status: "shipped",
     year: "2025",
-  },
-  {
-    id: "auris",
-    title: "auris iii — haptic chair",
-    description:
-      "joint research project between tail's music board and lavid laboratory at ufpb. building an ai-driven multisensory system that translates musical audio into haptic stimuli — making music physically perceivable for hearing-impaired users. the work sits at the intersection of sensory substitution research, signal processing, and accessibility.",
-    tech: ["Python", "AI/ML", "DSP", "Haptics", "Sensory Substitution"],
-    status: "in progress",
-    year: "2026",
   },
 ];
 
