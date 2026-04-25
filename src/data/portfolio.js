@@ -12,11 +12,20 @@ export const personal = {
 
 export const projects = [
   {
-    id: "nn-c",
-    title: "neural network in c",
+    id: "produceit",
+    title: "produce.it",
     description:
-      "building a neural network from scratch in c — no external libraries. raw memory management, forward and backward pass, gradient descent implemented at the pointer level. an exercise in understanding what frameworks abstract away.",
-    tech: ["C", "Linear Algebra", "Backpropagation", "Memory Management"],
+      "ai mixing assistant powered by a convolutional recurrent neural network trained on mel-spectrogram feature pipelines. the model analyzes spectral and temporal audio characteristics to deliver intelligent mixing recommendations through a full-stack interface.",
+    tech: ["Python", "PyTorch", "CRNN", "Next.js", "Mel-spectrograms"],
+    status: "shipped",
+    year: "2025",
+  },
+  {
+    id: "marco-polo",
+    title: "marco polo",
+    description:
+      "an ear-training application that evaluates user pitch accuracy in real-time. implemented using STFT-based time-frequency representations and signal alignment algorithms to provide low-latency feedback. focused on the intersection of DSP and MIR for interactive musical education.",
+    tech: ["Python", "PyTorch", "Librosa", "STFT", "MIR"],
     status: "in progress",
     year: "2026",
   },
@@ -38,15 +47,6 @@ export const projects = [
     status: "active",
     year: "2025",
   },
-  {
-    id: "produceit",
-    title: "produce.it",
-    description:
-      "ai mixing assistant powered by a convolutional recurrent neural network trained on mel-spectrogram feature pipelines. the model analyzes spectral and temporal audio characteristics to deliver intelligent mixing recommendations through a full-stack interface.",
-    tech: ["Python", "PyTorch", "CRNN", "Next.js", "Mel-spectrograms"],
-    status: "shipped",
-    year: "2025",
-  },
 ];
 
 export const experience = [
@@ -58,21 +58,9 @@ export const experience = [
     location: "joão pessoa, pb",
     type: "research",
     bullets: [
-      "architected a scalable data lake schema using sql, optimized for high-throughput data ingestion and analytical querying.",
-      "engineered a fastapi microservice for automated xml transaction processing with schema validation layers.",
-      "designed end-to-end data pipelines that reduced data inconsistency errors in downstream analytics.",
-    ],
-  },
-  {
-    id: "upenn",
-    role: "machine learning researcher (remote, volunteer)",
-    org: "university of pennsylvania",
-    period: "jul. 2025 – sep. 2025",
-    location: "philadelphia, pa",
-    type: "research",
-    bullets: [
-      "volunteered on medical imaging research — evaluated deep learning models for mammogram tissue classification on gpu-accelerated virtual machines.",
-      "benchmarked accuracy across multiple architectures to guide research decisions.",
+      "architected a high-throughput data lake handling 10m+ transactions, optimized for scalable ingestion and low-latency analytical querying.",
+      "engineered fastapi microservices and rest apis for automated xml/json processing with strict schema validation layers.",
+      "designed end-to-end data pipelines supporting backend services and downstream machine learning workloads.",
     ],
   },
   {
@@ -83,11 +71,34 @@ export const experience = [
     location: "joão pessoa, pb",
     type: "research",
     bullets: [
-      "volunteered building fastapi rest endpoints for transient event recognition and audio metadata storage.",
-      "built an automated chord annotation pipeline using librosa and pychord, eliminating manual labeling at scale.",
+      "built fastapi rest endpoints for transient event detection in audio signals and structured metadata storage.",
+      "developed an automated chord annotation pipeline using librosa and pychord, eliminating manual labeling and enabling scalable mir analysis.",
     ],
   },
-
+  {
+  id: "tail",
+  role: "music & dsp researcher",
+  org: "tail — technology and artificial intelligence league",
+  period: "jul. 2025 – present",
+  location: "joão pessoa, pb",
+  type: "research",
+  bullets: [
+    "conducted research in sensory substitution, mapping audio signal frequencies to haptic feedback systems.",
+    "developed auris iii — an ai-driven pipeline combining stem separation and midi-to-haptic encoding for tactile music representation.",
+  ],
+  },
+  {
+    id: "upenn",
+    role: "machine learning researcher (remote, volunteer)",
+    org: "university of pennsylvania",
+    period: "jul. 2025 – sep. 2025",
+    location: "philadelphia, pa",
+    type: "research",
+    bullets: [
+      "worked on medical imaging research — trained and evaluated deep learning models for mammogram tissue classification on gpu-accelerated environments.",
+      "benchmarked model performance across architectures to inform research direction and optimization trade-offs.",
+    ],
+  }
 ];
 
 export const stack = {
