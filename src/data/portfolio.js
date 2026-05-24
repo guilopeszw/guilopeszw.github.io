@@ -68,7 +68,7 @@ export const experience = [
     org: "aria — ai applications laboratory, ufpb",
     period: "nov. 2025 – present",
     location: "joão pessoa, pb",
-    type: "research",
+    type: "internship",
     bullets: [
       "architected a high-throughput data lake handling 10m+ transactions, optimized for scalable ingestion and low-latency analytical querying.",
       "engineered fastapi microservices and rest apis for automated xml/json processing with strict schema validation layers.",
@@ -93,7 +93,7 @@ export const experience = [
     org: "moises.ai",
     period: "sep. 2025 – dec. 2025",
     location: "joão pessoa, pb",
-    type: "research",
+    type: "internship",
     bullets: [
       "built fastapi rest endpoints for transient event detection in audio signals and structured metadata storage.",
       "developed an automated chord annotation pipeline using librosa and pychord, eliminating manual labeling and enabling scalable mir analysis.",
