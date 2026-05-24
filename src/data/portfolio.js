@@ -1,8 +1,8 @@
 export const personal = {
   name: "guilherme lopes",
   title: "software engineer",
-  subtitle: "backend development & data engineering",
-  bio: "i build backend systems, data pipelines, and machine learning infrastructure. cs student at ufpb, currently doing research across ai labs and audio intelligence.",
+  subtitle: "SWE and MLE",
+  bio: "i build cool stuff. cs student at ufpb, currently doing research across ai labs and audio intelligence.",
   email: "guilhermeulopes.work@gmail.com",
   github: "https://github.com/guilopeszw",
   linkedin: "https://linkedin.com/in/guilherme-u-lopes",
@@ -16,7 +16,7 @@ export const projects = [
     title: "produce.it",
     description:
       "ai mixing assistant powered by a convolutional recurrent neural network trained on mel-spectrogram feature pipelines. the model analyzes spectral and temporal audio characteristics to deliver intelligent mixing recommendations through a full-stack interface.",
-    tech: ["Python", "PyTorch", "CRNN", "Next.js", "Mel-spectrograms"],
+    tech: ["Python", "PyTorch", "CRNN", "Next.js", "Mel-spectrograms", "tech lead"],
     status: "shipped",
     year: "2025",
   },
@@ -65,7 +65,7 @@ export const experience = [
   },
   {
     id: "moises",
-    role: "software researcher (volunteer)",
+    role: "software engineer intern (volunteer)",
     org: "moises.ai",
     period: "sep. 2025 – dec. 2025",
     location: "joão pessoa, pb",
@@ -77,7 +77,7 @@ export const experience = [
   },
   {
   id: "tail",
-  role: "music & dsp researcher",
+  role: "ai researcher",
   org: "tail — technology and artificial intelligence league",
   period: "jul. 2025 – present",
   location: "joão pessoa, pb",
