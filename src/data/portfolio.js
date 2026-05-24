@@ -51,16 +51,40 @@ export const projects = [
 
 export const experience = [
   {
+  id: "tail",
+  role: "ai researcher",
+  org: "tail — technology and artificial intelligence league",
+  period: "jul. 2025 – present",
+  location: "joão pessoa, pb",
+  type: "research",
+  bullets: [
+    "conducted research in sensory substitution, mapping audio signal frequencies to haptic feedback systems.",
+    "developed auris iii — an ai-driven pipeline combining stem separation and midi-to-haptic encoding for tactile music representation.",
+  ],
+  },
+  {
     id: "aria",
     role: "backend & infrastructure developer",
     org: "aria — ai applications laboratory, ufpb",
-    period: "jul. 2025 – present",
+    period: "nov. 2025 – present",
     location: "joão pessoa, pb",
     type: "research",
     bullets: [
       "architected a high-throughput data lake handling 10m+ transactions, optimized for scalable ingestion and low-latency analytical querying.",
       "engineered fastapi microservices and rest apis for automated xml/json processing with strict schema validation layers.",
       "designed end-to-end data pipelines supporting backend services and downstream machine learning workloads.",
+    ],
+  },
+  {
+    id: "upenn",
+    role: "machine learning researcher (remote, volunteer)",
+    org: "university of pennsylvania",
+    period: "jul. 2025 – sep. 2025",
+    location: "philadelphia, pa",
+    type: "research",
+    bullets: [
+      "worked on medical imaging research — trained and evaluated deep learning models for mammogram tissue classification on gpu-accelerated environments.",
+      "benchmarked model performance across architectures to inform research direction and optimization trade-offs.",
     ],
   },
   {
@@ -75,30 +99,6 @@ export const experience = [
       "developed an automated chord annotation pipeline using librosa and pychord, eliminating manual labeling and enabling scalable mir analysis.",
     ],
   },
-  {
-  id: "tail",
-  role: "ai researcher",
-  org: "tail — technology and artificial intelligence league",
-  period: "jul. 2025 – present",
-  location: "joão pessoa, pb",
-  type: "research",
-  bullets: [
-    "conducted research in sensory substitution, mapping audio signal frequencies to haptic feedback systems.",
-    "developed auris iii — an ai-driven pipeline combining stem separation and midi-to-haptic encoding for tactile music representation.",
-  ],
-  },
-  {
-    id: "upenn",
-    role: "machine learning researcher (remote, volunteer)",
-    org: "university of pennsylvania",
-    period: "jul. 2025 – sep. 2025",
-    location: "philadelphia, pa",
-    type: "research",
-    bullets: [
-      "worked on medical imaging research — trained and evaluated deep learning models for mammogram tissue classification on gpu-accelerated environments.",
-      "benchmarked model performance across architectures to inform research direction and optimization trade-offs.",
-    ],
-  }
 ];
 
 export const stack = {
