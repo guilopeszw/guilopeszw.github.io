@@ -1,0 +1,9 @@
+{
+  "name": "guilopeszw.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://guilopeszw.github.io",
+  "scripts": {
+    "deploy": "npx gh-pages -d ."
+  }
+}
