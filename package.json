@@ -5,6 +5,6 @@
   "homepage": "https://guilopeszw.github.io",
   "scripts": {
     "build": "node ./scripts/simple-build.js",
-    "deploy": "npx gh-pages -d ."
+    "deploy": "rm -rf node_modules/.cache/gh-pages && npx gh-pages -d ."
   }
 }
