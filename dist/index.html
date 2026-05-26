@@ -10,6 +10,14 @@
     <title>guilherme lopes</title>
     <script type="module" crossorigin src="/assets/index-BLWhqGA_.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-DbgNsaJ6.css">
+    <script>
+      (function(){
+        try{
+          var WALK=document.createTreeWalker(document, NodeFilter.SHOW_TEXT, null, false);
+          var n=null;while(n=WALK.nextNode()){if(typeof n.nodeValue==="string"&&n.nodeValue.indexOf('SWE and MLE')!==-1){n.nodeValue=n.nodeValue.replace(/SWE and MLE/g,'software engineer & machine learning engineer')}}
+        }catch(e){}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
