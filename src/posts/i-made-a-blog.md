@@ -1,5 +1,5 @@
 ---
-title: blablabla'ing aka the best blog ever (necessary read on over 15 countries over the world)
+title: blablabla'ing aka the best blog ever (necessary read on over 15 countries accros the world)
 date: 2026-07-19
 ---
 
