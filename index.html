@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/avatar.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="guilherme lopes — software engineer. backend systems, data pipelines, machine learning." />
+    <meta name="description" content="guilherme lopes — software engineer. brazilian, from joão pessoa. backend, data pipelines, machine learning." />
     <meta property="og:title" content="guilherme lopes" />
-    <meta property="og:description" content="software engineer — backend & data engineering." />
+    <meta property="og:description" content="software engineer — backend, data, machine learning." />
+    <meta property="og:type" content="website" />
     <title>guilherme lopes</title>
+    <script>
+      // default to light; honour the saved choice. runs before paint to avoid a flash.
+      try { document.documentElement.dataset.theme = localStorage.getItem("theme") || "light"; }
+      catch (e) { document.documentElement.dataset.theme = "light"; }
+    </script>
   </head>
   <body>
     <div id="root"></div>
