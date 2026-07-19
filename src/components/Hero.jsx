@@ -46,11 +46,11 @@ export default function Hero() {
       </div>
       <p className="role">{personal.roleLines[0]}<br />{personal.roleLines[1]}</p>
       <div className="herolinks">
-        <a href={`mailto:${socials.email}`}>email</a>
         <a href={socials.github} target="_blank" rel="noopener">github</a>
         <a href={socials.linkedin} target="_blank" rel="noopener">linkedin</a>
         <a href={socials.twitter} target="_blank" rel="noopener">twitter</a>
         <a href={socials.calendar} target="_blank" rel="noopener">book a call</a>
+        <a href={`mailto:${socials.email}`}>email</a>
       </div>
       <button
         className="scrolldown"
