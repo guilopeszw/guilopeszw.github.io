@@ -4,11 +4,11 @@ import { experience } from "../data";
 // fixed node coordinates (0..100 space) forming an S-curve; s = which side the label sits on.
 // trail is drawn oldest -> newest, so we reverse `experience` (which is newest-first).
 const POS = [
-  { x: 26, y: 12, s: "l" },
-  { x: 72, y: 31, s: "r" },
-  { x: 46, y: 50, s: "l" },
-  { x: 28, y: 69, s: "l" },
-  { x: 74, y: 88, s: "r" },
+  { x: 32, y: 12, s: "l" },
+  { x: 68, y: 31, s: "r" },
+  { x: 47, y: 50, s: "l" },
+  { x: 34, y: 69, s: "l" },
+  { x: 69, y: 88, s: "r" },
 ];
 
 // smooth catmull-rom spline through the points -> one S-shaped path
