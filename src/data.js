@@ -26,12 +26,12 @@ export const about = [
 // `url` is optional; the graph card links to it when present.
 export const experience = [
   {
-    org: "tela", role: "software engineer", when: "jun 2026 — now",
+    org: "tela", role: "software engineer", when: "sep 2026 — now",
     desc: "making enterprises focus on what matters by automating the rest",
     url: "https://www.tela.com/",
   },
   {
-    org: "stealth", role: "software engineer", when: "jun 2026 — now", where: "san francisco",
+    org: "stealth", role: "software engineer", when: "jun — sep 2026", where: "san francisco",
     desc: "goblin mode.",
   },
   {
